@@ -15,7 +15,9 @@ i). Declare the manager instance.
 
 		//file should be and archive type line File file = new File("/sdcard/zipfile.zip");
 
-  ii).Then listview.setAdapter(read.getAdapter("/", context)); 
+  ii).Then 
+  
+      listview.setAdapter(read.getAdapter("/", context)); 
 
        and you are done....	
 
